@@ -224,4 +224,3 @@ if (Configure::read('debug')) {
 
 Plugin::load('Migrations');
 Plugin::load('Cors', ['bootstrap' => true, 'routes' => false]);
-Plugin::load('CakeSwagger', ['bootstrap' => true, 'routes' => true]);
